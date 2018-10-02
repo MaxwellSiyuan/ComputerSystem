@@ -1,0 +1,6 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+F:/VivadoProject/ComputerSystem/ComputerSystem.sim/sim_1/impl/timing/ComputerSystemB_tb_time_impl.v,1507434664,verilog,,,,ALU;ComputerSystemB;Flag;FreqDiv;IO_PORT;IO_connector;RAM256X1S_HD57;RAM256X1S_HD58;RAM256X1S_HD59;RAM256X1S_HD60;RAM256X1S_HD61;RAM256X1S_HD62;RAM256X1S_HD63;RAM256X1S_UNIQ_BASE_;dist_mem_gen_2;dist_mem_gen_2dist_mem_gen_v8_0_11;dist_mem_gen_2dist_mem_gen_v8_0_11_synth;dist_mem_gen_2rom;glbl;instrconunit;lpm_ram_256_8;lpm_rom_256_16;reg4_8;seg,,,,,,,,
+F:/VivadoProject/ComputerSystem/ComputerSystem.srcs/sim_1/new/CompuerSystemB_tb.v,1507434657,verilog,,,,ComputerSystemB_tb,,,,,,,,

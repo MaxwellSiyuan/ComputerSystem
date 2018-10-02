@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Oct 18 19:11:27 2017
+# Process ID: 3868
+# Current directory: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/InstINIT_ROM_synth_1
+# Command line: vivado.exe -log InstINIT_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source InstINIT_ROM.tcl
+# Log file: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/InstINIT_ROM_synth_1/InstINIT_ROM.vds
+# Journal file: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/InstINIT_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source InstINIT_ROM.tcl -notrace

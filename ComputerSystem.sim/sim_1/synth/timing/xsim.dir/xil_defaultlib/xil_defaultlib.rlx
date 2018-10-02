@@ -1,0 +1,6 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+F:/VivadoProject/ComputerSystem/ComputerSystem.sim/sim_1/synth/timing/ComputerSystemEx_PriorityOp_tb_time_synth.v,1508413892,verilog,,,,ALU;ComputerSystemEx_PriorityOp;Flag;FlagPulse;FlagPulse_0;IO_connector3;Key_Driver;LED_Block;NumInput;NumSelect;PreKey;PriorityOp_ROM;PriorityOp_ROMdist_mem_gen_v8_0_11;PriorityOp_ROMdist_mem_gen_v8_0_11_synth;PriorityOp_ROMrom;RAM256X1S_HD79;RAM256X1S_HD80;RAM256X1S_HD81;RAM256X1S_HD82;RAM256X1S_HD83;RAM256X1S_HD84;RAM256X1S_HD85;RAM256X1S_UNIQ_BASE_;SignalExtend;glbl;instrconunit;key_scan;lpm_ram_256_8;ram_256_8;ram_256_8dist_mem_gen_v8_0_11;ram_256_8dist_mem_gen_v8_0_11_synth;ram_256_8spram;reg4_8;seg,,,,,,,,
+F:/VivadoProject/ComputerSystem/ComputerSystem.srcs/sim_1/new/ComputerSystemEx_PriorityOp_tb.v,1508413495,verilog,,,,ComputerSystemEx_PriorityOp_tb,,,,,,,,

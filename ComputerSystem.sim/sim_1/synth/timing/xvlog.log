@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/ComputerSystem/ComputerSystem.sim/sim_1/synth/timing/ComputerSystemEx_PriorityOp_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM256X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD79
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD80
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD81
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD82
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD83
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD84
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD85
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module ComputerSystemEx_PriorityOp
+INFO: [VRFC 10-311] analyzing module Flag
+INFO: [VRFC 10-311] analyzing module FlagPulse
+INFO: [VRFC 10-311] analyzing module FlagPulse_0
+INFO: [VRFC 10-311] analyzing module IO_connector3
+INFO: [VRFC 10-311] analyzing module Key_Driver
+INFO: [VRFC 10-311] analyzing module LED_Block
+INFO: [VRFC 10-311] analyzing module NumInput
+INFO: [VRFC 10-311] analyzing module NumSelect
+INFO: [VRFC 10-311] analyzing module PreKey
+INFO: [VRFC 10-311] analyzing module PriorityOp_ROM
+INFO: [VRFC 10-311] analyzing module SignalExtend
+INFO: [VRFC 10-311] analyzing module instrconunit
+INFO: [VRFC 10-311] analyzing module key_scan
+INFO: [VRFC 10-311] analyzing module lpm_ram_256_8
+INFO: [VRFC 10-311] analyzing module ram_256_8
+INFO: [VRFC 10-311] analyzing module reg4_8
+INFO: [VRFC 10-311] analyzing module seg
+INFO: [VRFC 10-311] analyzing module PriorityOp_ROMdist_mem_gen_v8_0_11
+INFO: [VRFC 10-311] analyzing module PriorityOp_ROMdist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-311] analyzing module PriorityOp_ROMrom
+INFO: [VRFC 10-311] analyzing module ram_256_8dist_mem_gen_v8_0_11
+INFO: [VRFC 10-311] analyzing module ram_256_8dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-311] analyzing module ram_256_8spram
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/ComputerSystem/ComputerSystem.srcs/sim_1/new/ComputerSystemEx_PriorityOp_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ComputerSystemEx_PriorityOp_tb

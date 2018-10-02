@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Oct 15 12:38:53 2017
+# Process ID: 2788
+# Current directory: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/Ex_ContinuousOp_ROM_synth_1
+# Command line: vivado.exe -log Ex_ContinuousOp_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ex_ContinuousOp_ROM.tcl
+# Log file: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/Ex_ContinuousOp_ROM_synth_1/Ex_ContinuousOp_ROM.vds
+# Journal file: F:/VivadoProject/ComputerSystem/ComputerSystem.runs/Ex_ContinuousOp_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ex_ContinuousOp_ROM.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Ex_ContinuousOp_ROM, cache-ID = 769762d81ffabcbf.

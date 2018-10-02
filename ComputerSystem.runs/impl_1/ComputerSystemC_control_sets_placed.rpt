@@ -1,0 +1,90 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Thu Oct 26 14:55:53 2017
+| Host         : Dear-pc running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ComputerSystemC_control_sets_placed.rpt
+| Design       : ComputerSystemC
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    23 |
+| Unused register locations in slices containing registers |    72 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |              89 |           36 |
+| No           | Yes                   | No                     |               7 |            3 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             110 |           40 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------------------------+---------------------+------------------+----------------+
+|       Clock Signal       |              Enable Signal              |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++--------------------------+-----------------------------------------+---------------------+------------------+----------------+
+|  CLK_BUFG                |                                         |                     |                1 |              2 |
+|  FreqDiv_250Hz/Freq_1kHz |                                         | RESET_IBUF          |                1 |              2 |
+|  CLK_BUFG                | key_scan/Key_Driver/key_val[3]_i_1_n_0  | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/Key_Driver/E[0]                | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/NumInput/temp[3]_i_1_n_0       | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/NumInput/temp[7]               | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/NumInput/temp[11]              | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/NumSelect/delay_cnt[3]_i_1_n_0 | RESET_IBUF          |                1 |              4 |
+|  CLK_BUFG                | key_scan/PreKey/E[0]                    | RESET_IBUF          |                2 |              5 |
+|                          |                                         | IO_connector2/AS[0] |                3 |              7 |
+|  CLK_BUFG                | key_scan/Key_Driver/H1_i_1_n_0          | RESET_IBUF          |                2 |              8 |
+|  CLK_BUFG                | Reg/data_inL_reg[0][0]                  | RESET_IBUF          |                2 |              8 |
+| ~CLK_BUFG                | Reg/R2_3                                | RESET_IBUF          |                3 |              8 |
+| ~CLK_BUFG                | Reg/R3_2                                | RESET_IBUF          |                4 |              8 |
+| ~CLK_BUFG                | Reg/R0_1                                | RESET_IBUF          |                4 |              8 |
+| ~CLK_BUFG                | Reg/R1_0                                | RESET_IBUF          |                4 |              8 |
+|  CLK_BUFG                | Reg/E[0]                                | RESET_IBUF          |                4 |              9 |
+| ~CLK_BUFG                |                                         | RESET_IBUF          |                4 |              9 |
+|  CLK_BUFG                | key_scan/NumSelect/SRCH[3]_i_1_n_0      | RESET_IBUF          |                6 |             12 |
+|  CLK_BUFG                | key_scan/NumSelect/DSTH[3]_i_1_n_0      | RESET_IBUF          |                3 |             12 |
+|  clk_100MHz_IBUF_BUFG    |                                         | RESET_IBUF          |                4 |             17 |
+|  CLK_BUFG                | IO_connector2/we                        |                     |                8 |             32 |
+|  CLK_BUFG                |                                         | RESET_IBUF          |               27 |             61 |
++--------------------------+-----------------------------------------+---------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     2 |
+| 4      |                     6 |
+| 5      |                     1 |
+| 7      |                     1 |
+| 8      |                     6 |
+| 9      |                     2 |
+| 12     |                     2 |
+| 16+    |                     3 |
++--------+-----------------------+
+
+

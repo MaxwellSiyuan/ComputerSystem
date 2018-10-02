@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/ComputerSystem/ComputerSystem.sim/sim_1/impl/timing/ComputerSystemB_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM256X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD57
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD58
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD59
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD60
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD61
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD62
+INFO: [VRFC 10-311] analyzing module RAM256X1S_HD63
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module ComputerSystemB
+INFO: [VRFC 10-311] analyzing module Flag
+INFO: [VRFC 10-311] analyzing module FreqDiv
+INFO: [VRFC 10-311] analyzing module IO_PORT
+INFO: [VRFC 10-311] analyzing module IO_connector
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_2
+INFO: [VRFC 10-311] analyzing module instrconunit
+INFO: [VRFC 10-311] analyzing module lpm_ram_256_8
+INFO: [VRFC 10-311] analyzing module lpm_rom_256_16
+INFO: [VRFC 10-311] analyzing module reg4_8
+INFO: [VRFC 10-311] analyzing module seg
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_2dist_mem_gen_v8_0_11
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_2dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_2rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/VivadoProject/ComputerSystem/ComputerSystem.srcs/sim_1/new/CompuerSystemB_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ComputerSystemB_tb

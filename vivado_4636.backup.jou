@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Oct 23 08:04:08 2017
+# Process ID: 4636
+# Current directory: F:/VivadoProject/ComputerSystem
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4332 F:\VivadoProject\ComputerSystem\ComputerSystem.xpr
+# Log file: F:/VivadoProject/ComputerSystem/vivado.log
+# Journal file: F:/VivadoProject/ComputerSystem\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProject/ComputerSystem/ComputerSystem.xpr
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Users/.pdf
+write_schematic -format pdf -orientation portrait F:/VivadoProject/1.pdf
+write_schematic -format pdf -orientation landscape F:/VivadoProject/schematic1.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemA [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation landscape F:/VivadoProject/CSA.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemC [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation landscape F:/VivadoProject/CSC.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemEx_UART [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation portrait F:/VivadoProject/CS_uart.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemEx_PriorityOp [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation landscape F:/VivadoProject/CS_Priority.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemEx_UART [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation landscape F:/VivadoProject/CS_UART.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemC [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemEx_UART [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top UART [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design
+write_schematic -format pdf -orientation landscape F:/VivadoProject/UART.pdf
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ComputerSystemEx_PriorityOp [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+refresh_design

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="InstINIT_ROM_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1508325085">
+  <File Type="PA-TCL" Name="InstINIT_ROM.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="InstINIT_ROM_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="InstINIT_ROM.vds"/>
+  <File Type="RDS-UTIL" Name="InstINIT_ROM_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="InstINIT_ROM_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="InstINIT_ROM.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="InstINIT_ROM_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="InstINIT_ROM_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/InstINIT_ROM">
+    <File Path="$PSRCDIR/sources_1/ip/InstINIT_ROM/InstINIT_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="InstINIT_ROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/InstINIT_ROM">
+    <File Path="$PSRCDIR/sources_1/ip/InstINIT_ROM/InstINIT_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="InstINIT_ROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
